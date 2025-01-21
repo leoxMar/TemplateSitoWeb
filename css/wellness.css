@@ -1,0 +1,214 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifBodoni;
+}
+
+#mini-lime1 {
+    width: 20%;
+    margin-right: -2%;
+    float: right;
+}
+
+#testo-intro1 {
+    margin-top: -5%;
+    margin-left: 15%;
+    width: 70%;
+
+}
+
+.testo-well {
+    margin-top: 4vh;
+    margin-left: 18%;
+    font-size: larger;
+    opacity: 0.8;
+
+}
+
+#title-well {
+    font-size: larger;
+    opacity: 0.7;
+}
+
+#img-box1 {
+    opacity: 0.7;
+    height: 80vh;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    background-image: url("/img/Wellness.png");
+}
+
+.top {
+    margin-top: -5vh;
+}
+
+/* Commentooooooooo footer con doppio colore in diagonale*/
+.parent {
+    position: relative;
+
+    height: 60vh;
+    /* 100vh **/
+
+}
+
+.child {
+    font-size: 10vw;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+    z-index: 0;
+}
+
+.child--absolute {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0% 0, 0% 100%, 100% 100%);
+    background: #ECE3D9;
+    z-index: 1;
+}
+
+#img-footer {
+    padding-top: 1%;
+    padding-left: 75%;
+    width: 25%;
+}
+
+#para-foot {
+    color: #000;
+    opacity: 0.4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 180%;
+    font-size: large;
+}
+
+#box-para-foot {
+    padding-right: 70%;
+    margin-bottom: 5%;
+}
