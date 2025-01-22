@@ -156,7 +156,7 @@ p {
     /* Do not repeat the image */
     background-size: cover;
     /* Resize the background image to cover the entire container */
-    background-image: url("/img/Wellness.png");
+    background-image: url("/TemplateSitoWeb/img/Wellness.png");
 }
 
 .top {
